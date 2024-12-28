@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/favicon-32x32.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Results Summary Component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section class="results">
+          <h1>Your Result</h1>
+
+          <div class="score-circle">
+            <h2 class="earned-score">76</h2>
+            <p class="total-score">of 100</p>
+          </div>
+
+          <div class="score-remark">
+            <h2>Great</h2>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </section>
+
+        <section class="summary">
+          <h2>Summary</h2>
+          <div class="summary__stats">
+            <div class="reaction-stats">
+              <div class="reaction">
+                <img src="image/icon-reaction.svg" alt="Thunder bolt icon" />
+                <p>Reaction</p>
+              </div>
+              <p class="reaction-score">
+                <span class="actual-score">80</span>
+                <span class="maximum-score">/ 100</span>
+              </p>
+            </div>
+
+            <div class="memory-stats">
+              <div class="memory">
+                <img src="image/icon-memory.svg" alt="Brain icon" />
+                <p>Memory</p>
+              </div>
+              <p class="memory-score">
+                <span class="actual-score">92</span>
+                <span class="maximum-score">/ 100</span>
+              </p>
+            </div>
+
+            <div class="verbal-stats">
+              <div class="verbal">
+                <img src="image/icon-verbal.svg" alt="Speech icon" />
+                <p>Verbal</p>
+              </div>
+              <p class="verbal-score">
+                <span class="actual-score">61</span>
+                <span class="maximum-score">/ 100</span>
+              </p>
+            </div>
+
+            <div class="visual-stats">
+              <div class="visual">
+                <img src="image/icon-visual.svg" alt="Eye icon" />
+                <p>Visual</p>
+              </div>
+              <p class="visual-score">
+                <span class="actual-score">72</span>
+                <span class="maximum-score">/ 100</span>
+              </p>
+            </div>
+          </div>
+
+          <button>Continue</button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
